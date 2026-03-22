@@ -3,7 +3,7 @@
 Personal portfolio website built using HTML and CSS.
 
 ## 🔗 Live Demo
-[Click here https://shlokbyte.github.io/resume-website/
+Click here: https://shlokbyte.github.io/resume-website/
 
 ## 📌 Features
 - Clean UI
