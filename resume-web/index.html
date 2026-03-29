@@ -1,52 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
-    <link rel="stylesheet"
-href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shlok Modh | Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
 </head>
-<nav>
-    <h2>Shlok</h2>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+<body>
+
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <div class="hero-quote">"Bridging Business Strategy with the Power of Technology."</div>
+    <a href="#contact" class="hero-cta">Get in Touch</a>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-title">Resume</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="skills.html">Skills</a></li>
     </ul>
-</nav>
+  </nav>
 
-    <h1>Shlok Modh</h1>
-    <p class="tagline">Business Student Exploring Management, Strategy, and Technology</p>
+  <!-- MAIN -->
+  <main>
 
-    <hr>
+    <!-- PROFILE -->
+    <section class="profile-section">
+      <div class="profile-avatar">SM</div>
+      <h1 class="profile-name">Shlok Modh</h1>
+      <p class="profile-sub">Business &amp; Entrepreneurship Enthusiast</p>
+    </section>
 
-<div class="section" id="about">
-    <h2>About Me</h2>
-    <p>I am a student interested in business and management. As of right now, I am studying at IIM Bangalore and the course is bba dbe. I like learning new skills and improving myself. I am a business student who is currently exploring management, strategy, and technology and focusing on developing practical skills and building a strong foundation for future career opportunities.</p>
-</div>
+    <div class="divider"></div>
 
-<div class="section" id="education">
-    <h2>Education</h2>
-    <p>10th Boards with 87%
-       12th PCM with 75%
-       JEE 85 percentile</p>
-</div>
+    <!-- SUMMARY -->
+    <section class="content-section" id="summary">
+      <h2>Summary</h2>
+      <p>
+        I am a first-year student at <strong>IIM Bangalore</strong>, enrolled in the 
+        <strong>BBA DBE (Digital Business &amp; Entrepreneurship)</strong> program. 
+        I am passionate about bridging management principles with emerging technology, 
+        and am actively building practical skills to prepare for future leadership opportunities.
+      </p>
+      <p style="margin-top:16px;">
+        I enjoy reading books on business and self-development, and I love coding — 
+        building projects on the web and exploring how technology can solve real-world problems. 
+        I believe in continuous self-improvement and learning by doing.
+      </p>
+      <p style="margin-top:16px;">
+        Seeking opportunities to apply my skills in real business environments while 
+        continuing to learn, grow, and contribute meaningfully.
+      </p>
+    </section>
 
-<div class="section" id="skills">
-    <h2>Skills</h2>
+    <div class="divider"></div>
 
-    <div class="card-container">
-        <div class="card">Communication</div>
-        <div class="card">Problem Solving</div>
-        <div class="card">Basic Programming</div>
-        <div class="card">Teamwork</div>
-    </div>
+    <!-- EDUCATION -->
+    <section class="content-section" id="education">
+      <h2>Education</h2>
 
-</div>
-<div class="section" id="contact">
-    <h2>Contact</h2>
-    <p>Email: shlokmodh790@gmail.com | Mobile.No: 9510465793</p>
+      <div class="edu-block">
+        <h3>BBA – Digital Business &amp; Entrepreneurship</h3>
+        <div class="edu-meta">Indian Institute of Management Bangalore (IIM Bangalore)</div>
+        <div class="edu-year">2025 – 2028 (Expected)</div>
+        <p>
+          This program integrates digital technology, business management, and entrepreneurship 
+          to prepare leaders for the digital business world. I chose this degree to combine 
+          my interest in technology with a strong business foundation — enabling me to build 
+          ventures that are both innovative and strategically sound.
+        </p>
+      </div>
 
+      <div class="edu-block">
+        <h3>Higher Secondary — PCM</h3>
+        <div class="edu-meta">Gujarat Board</div>
+        <div class="edu-year">Passed in 2024 — <strong class="gold">74%</strong></div>
+        <p>
+          Focused on Physics, Chemistry and Mathematics. Also appeared for JEE Mains, 
+          achieving <strong class="gold">84 Percentile</strong>, building a solid analytical 
+          and problem-solving foundation.
+        </p>
+      </div>
+
+      <div class="edu-block">
+        <h3>Secondary School</h3>
+        <div class="edu-meta">Gujarat Board</div>
+        <div class="edu-year">Passed in 2022 — <strong class="gold">87%</strong></div>
+        <p>
+          Studied core subjects including Mathematics, Science, Social Science and English, 
+          developing a strong academic foundation across analytical thinking and communication.
+        </p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- HOBBIES -->
+    <section class="content-section" id="hobbies">
+      <h2>Hobbies &amp; Interests</h2>
+      <ul class="hobby-list">
+        <li>
+          <span class="hobby-title">📚 Reading</span>
+          Passionate about books spanning business, entrepreneurship, and personal development. 
+          Reading broadens my perspective and fuels strategic thinking.
+        </li>
+        <li>
+          <span class="hobby-title">💻 Coding</span>
+          Enjoy building things on the web — currently working with HTML &amp; CSS and 
+          exploring programming concepts that bridge technology with business ideas.
+        </li>
+      </ul>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- CONTACT -->
+    <section class="content-section" id="contact">
+      <h2>Contact</h2>
+      <p class="contact-intro"><strong>I'd love to connect!</strong><br/>
+        Whether it's about academic opportunities, collaborations, or just a quick conversation, 
+        feel free to reach out:
+      </p>
+      <div class="contact-card">
+        <div class="contact-avatar">SM</div>
+        <div class="contact-details">
+          <div class="contact-row">✉️ <a href="mailto:shlokmodh790@gmail.com">shlokmodh790@gmail.com</a></div>
+          <div class="contact-row">📱 <a href="tel:9510465793">+91 9510465793</a></div>
+          <div class="contact-row">📍 Palanpur, Banaskantha, Gujarat, India</div>
+          <div class="contact-row">🐙 <a href="https://github.com/ShlokByte" target="_blank">github.com/ShlokByte</a></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Shlok Modh | Resume</p>
+  </footer>
 
 </body>
 </html>
